@@ -70,3 +70,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+# Treat Unity .mat files as binary, so they won't be counted as Mathematica
+*.mat linguist-language=Binary
+*.asset linguist-language=Binary
+*.meta linguist-language=Binary

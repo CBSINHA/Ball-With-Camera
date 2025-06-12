@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceFromBall: {x: -3, y: 0, z: -4}
-  Ball: {fileID: 8139735661455948116, guid: a491e1d9ffd174b44a6834883c67f529, type: 3}
+  Ball: {fileID: 1059334860}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0

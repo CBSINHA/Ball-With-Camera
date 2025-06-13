@@ -165,6 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 6431628394498876923, guid: a491e1d9ffd174b44a6834883c67f529, type: 3}
   Position: {fileID: 5895424}
+  follow: {fileID: 330585548}
 --- !u!1 &55013248
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,8 +425,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d492ac915cd046849b787e3afad561f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFromBall: {x: -3, y: 0, z: -4}
-  Ball: {fileID: 1059334860}
+  distanceFromBall: {x: 0, y: 0.4, z: -5}
+  Ball: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +577,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -24.97}
-  m_LocalScale: {x: 40, y: 7, z: 1}
+  m_LocalScale: {x: 40, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 764188831}
@@ -894,7 +895,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 25.38}
-  m_LocalScale: {x: 40, y: 7, z: 1}
+  m_LocalScale: {x: 40, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 764188831}
@@ -1002,7 +1003,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 20.56, y: 0.01, z: 0.12}
-  m_LocalScale: {x: 51, y: 7, z: 1}
+  m_LocalScale: {x: 51, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 764188831}
@@ -1110,7 +1111,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -20.4, y: 0.01, z: 0.1}
-  m_LocalScale: {x: 51, y: 7, z: 1}
+  m_LocalScale: {x: 51, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 764188831}

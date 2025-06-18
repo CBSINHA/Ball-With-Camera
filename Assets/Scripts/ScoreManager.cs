@@ -8,5 +8,9 @@ public class ScoreManager : MonoBehaviour
         
     }
     int score = 0;
-    void(int point){
+    void AddScore(int point)
+    {
+        score += point;
+        Debug.Log(score);
+    }
 }

@@ -13,6 +13,7 @@ public class CoinCollectAnimation : MonoBehaviour
         if (other.gameObject.tag == "Ball")
         {
             Debug.Log("Coin collected!");
+            ScoreManager.instance.AddScore(10);
             Invoke("RemoveCoin", 0.3f);
         }
     }

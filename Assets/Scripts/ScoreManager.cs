@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
+    public static ScoreManager instance;
     void Awake()
     {
-        // Ensure that this object persists across scene loads
+        if (instance == null) instance = this;
         
     }
     int score = 0;
